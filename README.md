@@ -21,25 +21,21 @@ Besides that (and the built-in Python libraries), the Gurobi package needs to be
 
 The project has the following folder (and file) structure:
 
-* `data/`. Directory containing original dataset from LINQS. [online] Linqs.soe.ucsc.edu. Available at: https://linqs.soe.ucsc.edu/node/236 [Accessed 11 Jan. 2019].
+* `data/`. Directory containing cleaned and parsed data.
+    * `aggregateData.csv` CSV file listing each recipe row by row and its nutritional content.
+    * `FemaleValues.csv` CSV file listing recomended nutritional intake by age for females.
+    * `MaleValues.csv` CSV file listing recomended nutritional intake by age for males.
 
-* `project/`. Folder containing the actual code files for the project:
-    * `gephi/` Folder containing gephi files for visualization and exploration of the network.
-    * `images/` Folder containing different images that are generated when running the different notebooks.
-    * `fragmentation measures.py` Contains functions to compute fragmentation measures on the provided network.
-    * `optimization_algorithms.py` Contains both optimization algorithms for fragmentation and information flow as well as the necessary functions to compute the respectives objective values. 
-    * `data_exploration_functions.py` Contains several functions used for the import and parse of the data, creation of the network structure or identification of largest component among others.
-    * `fragmentation.ipynb` Notebook containing initial data exploration as well as optimization task and results on the fragmentation problem. The provided notebook is already executed and shows the desired results.
-    * `information_flow.ipynb` Notebook containing the data exploration and optimization task and results on the information diffusion problem. The provided notebook is already executed and shows the desired results. A new execution can take around 15 to 20 minutes. 
-    * `adjacency.npy` Numpy file containing the structure of the adjacency matrix of the original network. Can be used to avoid creating it from scratch if a new execution of any of the two notebooks wants to be done. 
+* `Matlab Code`. Folder containing the actual code files for the project:
+    * `MIE465Optimize_New.m` Gurobi model for mixed integer programming.
+    * `main.m` Imports data, accepts user data, and constructs constriants for the Gurobi model.
 
 * `Report.pdf`
-* `requirements.txt`
-
+* `Presentation.pdf`
 
 ## How to execute the files.
 	
-Only fragmentation and information flow Notebooks are intended to be executed. All other files do not provide any directly readable result. The project has been developed so that fragmentation notebook is read first as it contains an initial exploration of the data. Nevertheless, information_flow notebook can be read and understood without need of previous consultation to the fragmentation notebook, taking into account the reader is aware of the purpose of the project.
+Make sure that the directories to the data are correctly specified. Ensure that `MIE465Optimize_New.m` and `main.m` are in the same directory. Run `main.m` and results will be displayed in the MATLAB interface.
 
 ## Authors
 
