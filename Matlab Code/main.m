@@ -5,7 +5,7 @@
 % Tony Ye
 
 %% Read & Take out rows with missing data
-data = readtable('aggregateData.csv',  'Delimiter' , ',' );
+data = readtable('/data/aggregateData.csv',  'Delimiter' , ',' );
 
 %% ingredients: matrix of ingredients for each recipe
 % Row: Ingredients
