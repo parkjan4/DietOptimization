@@ -26,7 +26,7 @@ The project has the following folder (and file) structure:
     * `FemaleValues.csv` CSV file listing recomended nutritional intake by age for females.
     * `MaleValues.csv` CSV file listing recomended nutritional intake by age for males.
 
-* `Matlab Code`. Folder containing the actual code files for the project:
+* `Matlab Code/`. Folder containing the actual code files for the project:
     * `MIE465Optimize_New.m` Gurobi model for mixed integer programming.
     * `main.m` Imports data, accepts user data, and constructs constriants for the Gurobi model.
 
