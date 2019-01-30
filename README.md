@@ -22,8 +22,8 @@ Besides that (and the built-in Python libraries), the Gurobi package needs to be
 The project has the following folder (and file) structure:
 
 * `data/`. Directory containing cleaned and parsed data.
-    * `aggregateData.csv` CSV file listing each recipe row by row and its nutritional content.
-    * `FemaleValues.csv` CSV file listing recomended nutritional intake by age for females.
+    * `aggregateData.csv` CSV file listing each recipe row by row and its nutritional content. Original data was accessed via Yummly API.
+    * `FemaleValues.csv` CSV file listing recomended nutritional intake by age for females. Original data was acquired from Office of Disease Prevention and Health Promotion.
     * `MaleValues.csv` CSV file listing recomended nutritional intake by age for males.
 
 * `Matlab Code/`. Folder containing the actual code files for the project:
