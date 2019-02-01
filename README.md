@@ -19,7 +19,7 @@ Besides that (and the built-in Python libraries), the Gurobi package needs to be
 
 ## Project Structure
 
-The project has the following folder (and file) structure:
+The `project/` directory has the following folder (and file) structure:
 
 * `data/`. Directory containing cleaned and parsed data.
     * `aggregateData.csv` CSV file listing each recipe row by row and its nutritional content. Original data was accessed via Yummly API.
