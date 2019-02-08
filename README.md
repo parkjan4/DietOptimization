@@ -3,7 +3,7 @@ MIE465 - Analytics in Action, 2018, University of Toronto
 
 This is the directory of the optimization part of the project for the course "Analytics in Action" winter 2018, University of Toronto. This directory contains cleaned and parsed data used in the optimization as well as the code for the optimization algorithm. For more detailed description and final results of the project, please refer to (`Report.pdf`). For a more brief overview, refer to (`Presentation.pdf`).
 
-Smart fridges are a rising technology. A powerful algorithm behind it could be an optimization algorithm which prepares an optimal meal plan for the day from ingredients readily available from the individual's household, which of course is kept track by the fridge. Such an algorithm also serves some powerful meal planning apps. In this project, we develop a mixed integer programming model from scratch which constructs a plan of three meals by allocating ingredients in a way that maximizes nutritional value while adhering to the user's perference for cuisine.
+Smart fridges are a rising technology. A powerful algorithm behind it could be an optimization algorithm which prepares an optimal meal plan for the day from ingredients readily available from the individual's household, which of course is kept track by the fridge. Such an algorithm also serves some powerful meal planning apps. In this project, we develop a mixed integer programming model from scratch which constructs a plan of three meals by allocating ingredients in a way that maximizes nutritional value while adhering to the user's preference for cuisine.
 
 ## Getting Started
 
